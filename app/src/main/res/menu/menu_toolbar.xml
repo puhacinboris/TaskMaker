@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/sort_tasks"
+        android:icon="@drawable/ic_sort"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/action_sort_newer_first"
+                android:title="@string/newer_first"/>
+            <item android:id="@+id/action_sort_older_first"
+                android:title="@string/older_first"/>
+            <item android:id="@+id/action_sort_from_low_to_high"
+                android:title="@string/low_high"/>
+            <item android:id="@+id/action_sort_from_high_to_low"
+                android:title="@string/high_low"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_delete_all"
+        android:title="@string/delete_all"
+        android:icon="@drawable/ic_delete_filled"
+        app:showAsAction="always"/>
+
+</menu>
