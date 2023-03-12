@@ -1,5 +1,5 @@
-# Task Maker - Clean and beautiful task organiser - Native Android app
-Task maker helps to easily create task and organize them by priority or date.<br><br>
+# Task Maker - Clean and beautiful task organiser
+Task Maker helps to easily create task and organize them by priority or date.<br><br>
 Application follows Google’s practices for building native android apps using fragments, navigation component, Room persistence library, Kotlin Coroutines, dependency injection, MVVM architecture...
 <br>
 <br>
